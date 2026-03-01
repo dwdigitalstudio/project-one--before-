@@ -1,0 +1,43 @@
+/* BEFORE VERSION — intentionally poor mobile UX */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;        /* small text */
+  line-height: 1.2;       /* cramped */
+  margin: 0;
+  padding: 6px;           /* tight padding */
+}
+
+/* Force horizontal overflow */
+main {
+  width: 960px;           /* fixed width breaks mobile */
+}
+
+/* Header spacing is tight */
+header {
+  margin-bottom: 8px;
+}
+
+/* Hard-to-tap navigation */
+nav a {
+  font-size: 12px;
+  padding: 2px 4px;       /* tiny tap area */
+  margin-right: 4px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+/* Cramped sections */
+section {
+  margin-bottom: 8px;
+}
+
+/* Services cramped */
+.services {
+  margin: 0;
+  padding: 0;
+}
+
+.service {
+  margin-bottom: 4px;
+}
